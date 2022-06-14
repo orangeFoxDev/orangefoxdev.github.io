@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, h6  {
 
 html { 
     height: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,81 +67,19 @@ html {
 
 body {
     height: 100%;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 32px;
-}
-/* ----- Section ----- */
-
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-}
-
-section h1 {
-    font-size: 8rem;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-section article {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 0px 32px 0px 32px;
-    border-radius: 24px;
-}
-
-article p {
-    font-family: Montserrat;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: center;
-    color: white;
-}
-
-
-
-/* ----- Navigation ----- */
-
-nav {
-    display: flex;
-}
-
-nav h4 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    width: 64px;
-    text-align: center;
-    padding: 16px;
-    border: solid white 1px;
-}
-
-nav .start {
-    border-radius: 8px 0px 0px 8px ;
-}
-
-nav .end {
-    border-radius: 0px 8px 8px 0px ;
-}
-
-a {
-    text-decoration: none;
-    
-}
-
-a:hover h4 {
-    transition: 200ms;
-    color: #77b255;
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* ----- Logo ----- */
-
+#logo {
+    height: fit-content;
+    margin-top: 16px;
+}
 #logo .top{
     display: flex;
     align-items: baseline;
@@ -172,21 +111,88 @@ a:hover h4 {
     letter-spacing: 0.8px;
 }
 
+/* ----- Section ----- */
+
+section {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 500ms;
+    height: 1%;
+}
+
+#what, #why, #where, #how  {
+opacity: 0;
+}
+
+section h1 {
+    height: auto;
+    font-size: 8rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+section article {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    padding: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    overflow: scroll;
+}
+
+article p {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    overflow: auto;
+}
+
+/* ----- Navigation ----- */
+
+nav {
+    height: auto;
+    display: flex;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+nav h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 64px;
+    text-align: center;
+    padding: 16px;
+    border: solid white 1px;
+}
+nav h4:hover {
+    transition: 200ms;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav h4:active {
+    transition: 200ms;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+nav .start {
+    border-radius: 8px 0px 0px 8px ;
+}
+
+nav .end {
+    border-radius: 0px 8px 8px 0px ;
+}
+
+
+
+
+
 /* ----- Garbage ----- */
-#what {
-    display: none;
-}
-#why {
-    display: none;
-}
-
-#where {
-    display: none;
-}
-
-#how {
-    display: none;
-}
 
 
 
