@@ -131,8 +131,14 @@ section h1 {
     height: auto;
     font-size: 8rem;
     padding-top: 16px;
+}
+section h2 {
+    height: auto;
+    font-size: 1.6rem;
     padding-bottom: 16px;
 }
+
+
 
 section article {
     height: auto;
