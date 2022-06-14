@@ -135,7 +135,7 @@ section h1 {
 section h2 {
     height: auto;
     font-size: 1.6rem;
-    padding-bottom: 16px;
+    padding: 16px;
 }
 
 
@@ -164,8 +164,8 @@ article p {
 nav {
     height: auto;
     display: flex;
-    margin-bottom: 16px;
-    
+    margin-bottom: 32px;
+   
 }
 
 nav h4 {
