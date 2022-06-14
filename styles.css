@@ -114,12 +114,13 @@ body {
 /* ----- Section ----- */
 
 section {
+    height: 1%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: 500ms;
-    height: 1%;
+    
 }
 
 #what, #why, #where, #how  {
@@ -179,7 +180,6 @@ nav h4:active {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
 nav .start {
     border-radius: 8px 0px 0px 8px ;
 }
@@ -188,76 +188,4 @@ nav .end {
     border-radius: 0px 8px 8px 0px ;
 }
 
-
-
-
-
 /* ----- Garbage ----- */
-
-
-
-
-/* ************************************************  */
-/* nav, section {
-    display: flex;
-}
-
-body, #logo { 
-    display: flex;
-    flex-direction: column;
-}
-
-body, nav, section, article, p { 
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-nav {
-    border: solid white 1px;
-    border-radius: 8px;
-}
-
-
-p {
-    font-family: "Montserrat";
-    font-weight: 800;
-    font-size: 1.2rem;
-    text-align: justify;
-    color: white;
-    letter-spacing: -0.25px;
-    width: 40%;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 24px;
-    border: solid white 1px;
-    padding: 16px;
-}
-article h1 {
-    font-family: Comfortaa;
-    font-size: 8rem;
-    text-align: center;
-    color: white;
-}
-
-a {
-    width: 64px;
-    text-decoration: none;
-    padding: 8px;
-}
-a h4 {
-    font-family: Comfortaa;
-    text-align: center;
-    transition: 200ms;
-}
-a:hover h4 {
-    color: #77b255;
-    transition: 200ms;
-}
-
-.devider {
-    height: 100%;
-    border: solid white 1px;
-} */
