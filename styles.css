@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'LobsterTwoItalic';
+    src:  url('/assets/fonts/Lobster_Two/LobsterTwo-Italic.ttf') format('truetype'),
+          url('/Nameless/Webpage/assets/fonts/Lobster_Two/LobsterTwo-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src:  url('/assets/fonts/Comfortaa-VariableFont_wght.woff') format('woff');         
+}
+@font-face {
+    font-family: 'OpenSans';
+    src:  url('/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('ttf'),
+          url('/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.woff') format('woff');         
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:  url('/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('ttf'),
+          url('/assets/fonts/Montserrat/Montserrat-VariableFont_wght.woff') format('woff');         
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* ----- Typography ----- */
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: Comfortaa;
+    margin: 0px;
+    color: white;
+    transition: 200ms;
+}
+
+/* ----- Layout ----- */
+
+html { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #28383a;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 32px;
+}
+/* ----- Section ----- */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+section h1 {
+    font-size: 8rem;
+    padding-top: 32px;
+}
+
+section article {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0px 32px 0px 32px;
+    border-radius: 24px;
+}
+
+article p {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* ----- Navigation ----- */
+
+nav {
+    display: flex;
+}
+
+nav h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 64px;
+    text-align: center;
+    padding: 16px;
+    border: solid white 1px;
+}
+
+nav .start {
+    border-radius: 8px 0px 0px 8px ;
+}
+
+nav .end {
+    border-radius: 0px 8px 8px 0px ;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover h4 {
+    transition: 200ms;
+    color: #77b255;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* ----- Logo ----- */
+
+#logo .top{
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+#logo .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 4px;
+}
+#logo h1 {
+    font-family: LobsterTwoItalic;
+    font-size: 3.2rem;
+}
+#logo h2 {
+    font-family: Comfortaa;
+    font-weight: 100;
+    font-size: 2.4rem;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+}
+#logo h3 {
+    font-family: Comfortaa;
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    letter-spacing: 0.8px;
+}
+
+/* ----- Garbage ----- */
+
+
+
+/* ************************************************  */
+/* nav, section {
+    display: flex;
+}
+
+body, #logo { 
+    display: flex;
+    flex-direction: column;
+}
+
+body, nav, section, article, p { 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+nav {
+    border: solid white 1px;
+    border-radius: 8px;
+}
+
+
+p {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: white;
+    letter-spacing: -0.25px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    border: solid white 1px;
+    padding: 16px;
+}
+article h1 {
+    font-family: Comfortaa;
+    font-size: 8rem;
+    text-align: center;
+    color: white;
+}
+
+a {
+    width: 64px;
+    text-decoration: none;
+    padding: 8px;
+}
+a h4 {
+    font-family: Comfortaa;
+    text-align: center;
+    transition: 200ms;
+}
+a:hover h4 {
+    color: #77b255;
+    transition: 200ms;
+}
+
+.devider {
+    height: 100%;
+    border: solid white 1px;
+} */
