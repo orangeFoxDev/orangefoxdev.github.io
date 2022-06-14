@@ -173,6 +173,21 @@ a:hover h4 {
 }
 
 /* ----- Garbage ----- */
+#what {
+    display: none;
+}
+#why {
+    display: none;
+}
+
+#where {
+    display: none;
+}
+
+#how {
+    display: none;
+}
+
 
 
 
