@@ -185,10 +185,24 @@ article p {
     font-family: Montserrat;
     font-size: 1.2rem;
     font-weight: 600;
-    text-align: center;
     color: white;
     overflow: auto;
+    padding: 0px;
 }
+
+article h3 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+article h4 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+article h5 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
 
 /* ----- Navigation ----- */
 
@@ -228,3 +242,7 @@ nav .end {
 }
 
 /* ----- Garbage ----- */
+
+hr {
+    margin-bottom: 16px;
+}
