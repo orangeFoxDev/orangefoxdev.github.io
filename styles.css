@@ -195,6 +195,7 @@ article p {
 nav {
     height: auto;
     display: flex;
+    margin-top: 16px;
     margin-bottom: 32px;
    
 }
