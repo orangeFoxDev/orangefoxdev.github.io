@@ -24,23 +24,70 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    section article {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 24px;
+        padding: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        overflow: scroll;
+    }
 
+    section h1 {
+        height: auto;
+        font-size: 4rem;
+        padding-top: 16px;
+    }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    section article {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 24px;
+        padding: 16px;
+        overflow: scroll;
+        transition: 200ms;
+        width: 95%;
+    } 
+
+    section h1 {
+        height: auto;
+        font-size: 4rem;
+        padding-top: 16px;
+    }
     
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    section article {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 24px;
+        padding: 16px;
+        overflow: scroll;
+        transition: 200ms;
+        width: 50%;
+    }
+
+    section h1 {
+        height: auto;
+        font-size: 8rem;
+        padding-top: 16px;
+    }
 
 }
 
@@ -127,27 +174,11 @@ section {
 opacity: 0;
 }
 
-section h1 {
-    height: auto;
-    font-size: 8rem;
-    padding-top: 16px;
-}
+
 section h2 {
     height: auto;
     font-size: 1.6rem;
     padding: 16px;
-}
-
-
-
-section article {
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 24px;
-    padding: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
-    overflow: scroll;
 }
 
 article p {
